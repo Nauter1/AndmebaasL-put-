@@ -15,5 +15,6 @@ namespace ArtGallery.Core.Domain
         public string Name { get; set; }
         public string Telephone { get; set; }
         public string Email { get; set; }
+        public IEnumerable<Exhibit> ExhibitID { get; set; } = new List<Exhibit>();
     }
 }

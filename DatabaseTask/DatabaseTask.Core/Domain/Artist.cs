@@ -16,5 +16,6 @@ namespace ArtGallery.Core.Domain
         public DateOnly DateOfBirth { get; set; }
         public string Nationality { get; set; }
         public string History { get; set; }
+        public IEnumerable<Artwork> ArtworkID { get; set; }
     }
 }

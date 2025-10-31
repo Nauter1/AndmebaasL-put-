@@ -19,6 +19,6 @@ namespace ArtGallery.Core.Domain
         public Technique Technique { get; set; }
         public string Dimensions { get; set; }
         public Status Status { get; set; }
-        public ICollection<Artist> ArtistID { get; set; }
+        public IEnumerable<DisplayDates> DisplayId { get; set; } = new List<DisplayDates>();
     }
 }
