@@ -15,6 +15,7 @@ namespace ArtGallery.Core.Domain
     {
         [Key]
         public int Id { get; set; }
+        public string Name { get; set; }
         public DateOnly DateOfCreation { get; set; }
         public Technique Technique { get; set; }
         public string Dimensions { get; set; }
